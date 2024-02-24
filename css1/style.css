@@ -1,0 +1,78 @@
+/* html{
+    font-size: 10px;
+} */
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+    text-align: center;
+    background-color: #eee;
+    line-height: 1.6;
+    font-weight: 300;
+    min-height: 2000px;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+.typography {
+    display: flex;
+}
+
+.typography .col {
+    flex: 1;
+    margin: 0 0.5em;
+    padding: 0 0.5em;
+}
+
+/* em  nilai em relativ terhadap parentnyam kalau tidak value di parentnya maka akan di ambil value default nya*/
+/* 
+.typography{
+    font-size: 10px;
+}
+.col-em{
+    font-size: 2em;
+}
+.col-em h2{
+    font-size: 2em;
+
+}
+
+.col-em p{
+    font-size: 1.5em;
+} */
+
+
+/* rem hanya berpengaruh pada root nya saja disarankan utk menggunakan rem untuk font*/
+
+/* tidak terpengaruh */
+/* .col-rem{
+    font-size: 10px;
+}
+
+.col-rem h2 {
+    font-size: 2rem;
+}
+
+.col-rem p {
+    font-size: 1.5rem;
+} */
+
+.btn {
+    display: inline-block;
+    background-color: #333;
+    font-weight: 700;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    /* jika em di element seperti dibawah ini maka dia akan cek dulu pa element nya jika tidak ada maka akan cari di parent nya */
+    padding: 1em 3em;
+}
+/* jadi tidak perlu atur padding lagi */
+.btn-sm{
+    font-size: 0.5em;
+}
+.btn-lg{
+    font-size: 1.3em;
+}

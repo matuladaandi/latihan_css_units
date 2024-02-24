@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 1.8em;
+}
+
+header{
+    background-color: #ccc;
+    background-image: url(../img/andi.jpeg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    height: 100vh;
+}
+
+h1 {
+    margin: auto;
+    /* font-size: 4rem; */
+    /* font-size: 4vw; viewport nya akan menyusaikan,semakin lebar viewportnya maka fontnya akan mengikuti namun tampilannya di mobile fontnya akan kecil sekali krn lebarnya kecil*/
+    /* font-size: 4vw; */
+
+    /* lebarnya 4% dari lebar layar nya */
+    /* font-size: 4vmax; */
+    font-size: 4vmax;
+    line-height: 1.2em;
+    color: white;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.8);
+    text-align: center;
+}
+
+section .detail {
+    font-size: 1.4rem;
+    text-align: center;
+    border-top: 1px solid #000;
+    border-bottom: 1px solid black;
+    padding: 0.5em 0;
+    margin-bottom: 2em;
+    color: #333;
+}
+
+section p {
+    font-size: 1.2em;
+    margin-bottom: 1em;
+    text-indent: 1em;
+}
